@@ -1,0 +1,47 @@
+@import "colors";
+
+.bold {
+	font-weight: 700;
+}
+.bolder {
+	font-weight: 900;
+}
+.primary-color{
+	color: $primary_color;
+}
+
+hr.big-line {
+	border-top: 4px solid $primary_color;
+	width: 60px;
+	margin-top: 10px;
+}
+hr.small-line {
+	border-top: 4px solid rgba( $primary_color, .34 );
+	width: 40px;
+	margin-top: 10px;
+}
+.align-center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+
+.space{
+	margin-top: 40px;
+}
+
+.maps {
+	pointer-events: none;
+}
+.no-padding-top {
+	padding-top: 0 !important;
+}
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
