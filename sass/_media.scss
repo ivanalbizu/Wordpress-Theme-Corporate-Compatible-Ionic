@@ -1,0 +1,22 @@
+@media only screen and (min-width: 641px) {
+	.remodal {
+		.container-fluid {
+			padding-left: 0;
+			padding-right: 0;
+			.col-md-4 {
+				padding-left: 0;
+			}
+		}
+		&.full-width {
+			max-width: 80%;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	#wrapper-home .overlay #wrapper-home-content {
+		padding-top: 50%;
+	}
+  #wrapper-menu.navbar-default {
+    background-color: rgba(34, 34, 34, 0.98);
+  }
+}
